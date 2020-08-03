@@ -7,6 +7,5 @@ class CreateCities < ActiveRecord::Migration[5.2]
       t.timestamps
     end
 
-    add_reference :users, :city, foreign_key: true
   end
 end
